@@ -1,8 +1,11 @@
-# :warning: ARCHIVED
+# :warning: Not a Microsoft Supported Fork
 
-This repository is no longer maintained and devices can no longer connect to IoT Hub.
+This repository is a fork of the official Microsoft devkit-sdk (MXCHIP AZ3166) which is no longer maintained. The purpose of this fork is to continue to enhance the Microsoft IoTDevKit. Enhancements include:
+- Connecting to Azure IoT Hub with the updated Client Certificate
+- Enabling direct access to MQTT and MQTTSecure
+- General bug fixes and features
 
-Please refer to the following sources for further MXCHIP needs:
+For all *offically supported* Microsoft MXCHIP sources, please refer to the following:
 1. [Connect an MXCHIP AZ3166 to Azure IoT
 ](https://github.com/azure-rtos/getting-started/tree/master/MXChip/AZ3166) - A guide to connecting the MXCHIP using Azure RTOS
 1. [Azure SDK for Embedded C for Arduino](https://github.com/Azure/azure-sdk-for-c-arduino) - A purpose build SDK for connecting Arduino devices to IoT Hub
